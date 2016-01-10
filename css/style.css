@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+* {font-family: lato;}
+
+#containter {
+width: 100%;
+margin: 0 auto;
+}
+
+#nav  {
+list-style: none;
+overflow: hidden;
+text-align: center;
+margin: 20px auto;
+}
+
+#nav li {
+display: inline-block;
+margin: 0 50px;
+border: 1px solid #777870;
+padding: 10px;
+}
+
+#nav a {
+text-decoration: none;
+text-transform: uppercase;
+color: #777870;
+}
+
+#header {
+margin: 0 0 20px 0;
+text-align: left;
+background-color: #558a86;
+background-image: url(images/bg.png);
+color: #fbfbfb;
+}
+
+ 
+#header p, h1 {
+padding: 10px 0 10px 15px;
+margin: 0;
+}
+
+#content h1 {
+padding: 10px 0;
+text-align: center;
+}
+
+#footer {
+position: absolute;
+bottom: 10px;
+font-size: 10px;
+}
+
+.basicText {
+font-size: 18px;
+padding: 0 15px;
+}
+
+
