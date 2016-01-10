@@ -1,5 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Lato);
-* {font-family: lato;}
+@import url(https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext);
+body {
+    font-family: 'Lato', sans-serif;
+}
 
 #containter {
 width: 100%;
